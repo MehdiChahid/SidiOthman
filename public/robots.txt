@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: {{ url('/sitemap.xml') }}
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /storage/
+Disallow: /vendor/
+
+# Allow important pages
+Allow: /
+Allow: /images/
+Allow: /css/
+Allow: /js/
